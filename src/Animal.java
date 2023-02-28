@@ -28,7 +28,7 @@ public class Animal {
         if (!this.species.equals(partner.species))
             return null;
 
-        return new Animal(this.species, this.color, this.tail, this.legs / 2, this.sound + partner.sound, this.name + partner.name);
+        return new Animal(this.species, this.color, this.tail, (this.legs + partner.legs) / 2, this.sound + partner.sound, this.name + partner.name);
     }
 
     // Getter methods for all properties
