@@ -22,5 +22,9 @@ public class Main {
             System.out.println(animal);
             animal.speak();
         }
+
+        // Forgot what the first animals' name was
+        System.out.println(animals[0].getName());
+        // Ah, that's what it was
     }
 }
